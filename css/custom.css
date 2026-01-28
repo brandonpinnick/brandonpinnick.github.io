@@ -1,0 +1,26 @@
+/* custom.css - Custom styles and overrides */
+
+/* Fix for appearance property */
+button, input[type="button"], input[type="reset"] {
+    -webkit-appearance: button;
+    appearance: button;
+}
+
+/* Fix for search inputs */
+input[type="search"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* Fix for number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* About section background */
+.wrapper.about {
+    background-image: url("../images/s3.jpg");
+}
